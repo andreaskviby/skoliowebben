@@ -28,14 +28,38 @@
     "imageResize": true,
     "uniqCompNum": 13,
     "versionPublish": "4.12.0",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "sitemapSwitcher": true,
+    "siteUrl": "https://skolio.se",
+    "sitemapSwitcherAuto": "on",
+    "cookiesAlert": {
+      "customDialogSelector": false,
+      "colorText": "#424a4d",
+      "colorBg": "#eaeff1",
+      "colorButton": "#f39c12",
+      "colorLink": "#424a4d",
+      "underlineLink": true,
+      "opacity": "99",
+      "opacityOverlay": "80",
+      "text": "Skolio.se använder cookies på sidan för att enbart få statistik över besökare och hur många som kommer tillbaka till sidan.",
+      "textButton": "Okej"
+    },
+    "gdpr": {
+      "colorText": "#a7a7a7",
+      "colorLink": "#149dcc",
+      "underlineLink": false,
+      "text": "Skolios app för både Android och iOS följer alla de riktlinjer om GDPR och i apparna finns allt om detta."
+    },
+    "favicon": false,
+    "robotsSwitcher": false,
+    "pwa-switcher": false
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "",
+        "title": "Skolio - App för lärare, elever och vårdnadshavare i skolan",
+        "meta_descr": "Skolio är appen som ger dig meddelanden, att-göra, anteckningar och automatisk tidsredovisning i din arbetsdag. Prova Skolio gratis på din skola idag.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
