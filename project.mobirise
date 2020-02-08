@@ -13,9 +13,9 @@
         "infoColor": "#3498db",
         "warningColor": "#f1c40f",
         "dangerColor": "#e74c3c",
-        "titleFont": "Arvo",
-        "subtitleFont": "Montserrat",
-        "textFont": "Open Sans",
+        "titleFont": "Roboto",
+        "subtitleFont": "Roboto",
+        "textFont": "Roboto",
         "isRoundedButtons": true,
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": false
@@ -26,7 +26,7 @@
     "versionFirst": "4.12.0",
     "siteFonts": [],
     "imageResize": true,
-    "uniqCompNum": 13,
+    "uniqCompNum": 15,
     "versionPublish": "4.12.0",
     "screenshot": "screenshot.png",
     "sitemapSwitcher": true,
@@ -222,6 +222,47 @@
         },
         {
           "_params": {
+            "showTitle": true,
+            "showText": false,
+            "tabs": "5",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/img_extAccordion1_bg.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "Vad är Skolio?",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae nostrum quis ab, fuga ducimus, eligendi facere atque provident tempore vitae, cupiditate fugit explicabo. Nostrum quidem itaque blanditiis maxime, perferendis numquam ab a exercitationem impedit repellat, voluptate sunt! Veritatis, nam.",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseOnetoggle1-d\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>Vilka funktioner finns i appen?</a>",
+          "title2": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseTwotoggle1-d\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">Hur fungerar det att ansluta sig till Skolio?</a>",
+          "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseThreetoggle1-d\" aria-expanded=\"true\" aria-controls=\"collapseThree\">Vad kostar Skolio?</a>",
+          "title4": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFourtoggle1-d\" aria-expanded=\"true\" aria-controls=\"collapseFour\">Varför är Skolio så fantastisk?</a>",
+          "title5": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFivetoggle1-d\" aria-expanded=\"true\" aria-controls=\"collapseFive\">Hur kan vi testa Skolio på vår skola?</a>",
+          "title6": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">This is a accordion Title 6</a>",
+          "text1": "<p>I vår första version av appen som lanseras i mars 2020 finns funktionerna Meddelenanden, Att-göra och Anteckningar. Alla dessa funktioner är byggda tillsammans med lärare och noga testade för att ge användarna ett verktyg som inte finns idag inom skolan som vi sett. Under 2020 kommer det sedan fyllas på med fler funktioner som kommer som önskemål från våra användare.</p>",
+          "text2": "<p>Skolio bygger på ett säkert system där personalen får en QR kod av den som ansvarar för Skolio på skolan. Denna QR kod skannas av den personal som skall ansluta sig till skolans konto. Det finns inget annat sätt att ansluta sig till en skola och detta ger skolans ansvariga ett säkert system för vem som får access till Skolio. När sedan appen för elever och vårdnadshavare kommer lanseras är det med samma teknik som dessa ansluter sig. En lärare kan ansluta elever genom att de skannar lärarens QR kod och vårdnadshavare måste också skanna lärarens QR kod. Detta för att maximera säkerheten och valfriheten med vem eller vilka som är vårdnadshavare för en elev.</p>",
+          "text3": "<p>Skolio är än så länge gratis för alla skolor och personal att testa. Detta kan komma att ändras men det viktigaste för oss är att så många som möjligt får chansen att testa Skolio på sin skola. Skolio kommer alltid vara gratis för vårdnadshavare.</p>",
+          "text4": "<p>Det säger vi inte rent ut men klart att vi tycker det själva. Skolio har utvecklats i nära samarbete med personal inom skolan och varje funktion har testats och byggts om flera gånger för att fungera perfekt efter hur det ser ut i skolan. Vi har också sett och testat andra appar och system för skolan och inte varit så imponerade över de små funktionerna. Just en funktion som vi tycker är helt fantastisk är just meddelandefunktionerna i Skolio. Testa och se om du också tycker det.</p>",
+          "text5": "<p>Det är bara att fylla i formuläret på denna sida. Be en som kan stå som ansvarig för ert Skolio på din skola att fylla i sina uppgifter. Efter att vi verifierat uppgifterna kommer vi addera er skola i den stora testomgång som startar under mars och då kan er ansvarige ansluta er alla till apparna för iOS och Android.</p>",
+          "text6": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "toggle1",
+          "_anchor": "toggle1-d"
+        },
+        {
+          "_params": {
             "paddingTop": 1,
             "paddingBottom": 1,
             "bgColor": "#ffffff"
@@ -262,6 +303,69 @@
           ],
           "_name": "countdown1",
           "_anchor": "countdown1-7"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".form-control-label": {}
+          },
+          "_params": {
+            "showSubtitle": true,
+            "showTitle": true,
+            "showText": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/03.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ecf0f1",
+            "overlay": false,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.5
+          },
+          "iconName": "<img src=\"@PROJECT_PATH@/assets/images/icon-name.png\">",
+          "iconEmail": "<img src=\"@PROJECT_PATH@/assets/images/icon-email.png\">",
+          "iconPhone": "<img src=\"@PROJECT_PATH@/assets/images/icon-phone.png\">",
+          "title": "VI VILL TESTA SKOLIO GRATIS!",
+          "subtitle": "VILL ER SKOLA TESTA SKOLIO?",
+          "text": "Genom att fylla i formuläret anmäler ni er skola som intresserad att testa apparna för iOS och Android. Ni kommer inte få betala något för att testa Skolio och ni kan ansluta all personal utan extra kostnad. Skolio för lärare kostar idag inget alls för en skola. Anmäl er skola nedan och uppge vem som ansvarar för testet, vi kommer verifiera detta genom samtal, sms och eller e-post. Genom att kryssa i rutan för GDPR godkänner du att vi lagrar information enligt nedan för att kunna kontakta er inför testerna.",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SKICKA</a>",
+          "form": {
+            "action": "andreaskviby@gmail.com",
+            "alerts": {
+              "success": "Tack för att ni vill testa Skolio!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Namn*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "E-post*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Mobiltelefon"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Varför vill ni testa Skolio?"
+              }
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-e"
         },
         {
           "_params": {
