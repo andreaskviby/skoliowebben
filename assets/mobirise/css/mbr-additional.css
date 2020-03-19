@@ -827,6 +827,22 @@ section.form .container {
 #menu-0 .dropdown-item[aria-expanded="true"] {
   color: #f39c12!important;
 }
+#features17-g .mbr-section-title {
+  font-weight: 400;
+}
+#features17-g .mbr-section-subtitle {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+}
+#header4-f .display-1 {
+  font-weight: 700;
+}
+#header4-f .lead {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
 #header4-b .display-1 {
   font-weight: 700;
 }

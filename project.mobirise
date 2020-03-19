@@ -26,7 +26,7 @@
     "versionFirst": "4.12.0",
     "siteFonts": [],
     "imageResize": true,
-    "uniqCompNum": 15,
+    "uniqCompNum": 17,
     "versionPublish": "4.12.0",
     "screenshot": "screenshot.png",
     "sitemapSwitcher": true,
@@ -159,6 +159,107 @@
         },
         {
           "_styles": {
+            ".mbr-section-title": {
+              "font-weight": "400"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase",
+              "letter-spacing": "2px",
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showButtons": false,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/02.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#ffc80a",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ffc80a",
+            "overlayOpacity": 0.9
+          },
+          "title": "COVID-19 STÄLLER NYA KRAV PÅ DEN SVENSKA SKOLAN OCH ALLA SOM ARBETAR INOM SKOLAN!",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-white-outline\" href=\"https://mobirise.com\"><span class=\"cm-icon cm-icon-arrowright mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features17",
+          "_anchor": "features17-g"
+        },
+        {
+          "_styles": {
+            ".display-1": {
+              "font-weight": "700"
+            },
+            ".lead": {
+              "color": "#fff",
+              "text-transform": "uppercase",
+              "margin-bottom": "0"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showImage": true,
+            "showArrow": true,
+            "imageSize": 90,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/03.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#e74c3c",
+            "overlayOpacity": 0.9
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/skarmavbild-2020-03-19-kl.-12.21.45-1197x1159.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "title": "Skolio lanserar ett öppet forum för personal i den svenska skolan, gratis!",
+          "text": "ÖPPET FORUM FÖR DISTANSUNDERVISNING",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">GÅ TILL FORUMET</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_anchor": "header4-f"
+        },
+        {
+          "_styles": {
             ".display-1": {
               "font-weight": "700"
             },
@@ -222,47 +323,6 @@
         },
         {
           "_params": {
-            "showTitle": true,
-            "showText": false,
-            "tabs": "5",
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/img_extAccordion1_bg.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
-          },
-          "title": "Vad är Skolio?",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae nostrum quis ab, fuga ducimus, eligendi facere atque provident tempore vitae, cupiditate fugit explicabo. Nostrum quidem itaque blanditiis maxime, perferendis numquam ab a exercitationem impedit repellat, voluptate sunt! Veritatis, nam.",
-          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseOnetoggle1-d\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>Vilka funktioner finns i appen?</a>",
-          "title2": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseTwotoggle1-d\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">Hur fungerar det att ansluta sig till Skolio?</a>",
-          "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseThreetoggle1-d\" aria-expanded=\"true\" aria-controls=\"collapseThree\">Vad kostar Skolio?</a>",
-          "title4": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFourtoggle1-d\" aria-expanded=\"true\" aria-controls=\"collapseFour\">Varför är Skolio så fantastisk?</a>",
-          "title5": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFivetoggle1-d\" aria-expanded=\"true\" aria-controls=\"collapseFive\">Hur kan vi testa Skolio på vår skola?</a>",
-          "title6": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">This is a accordion Title 6</a>",
-          "text1": "<p>I vår första version av appen som lanseras i mars 2020 finns funktionerna Meddelenanden, Att-göra och Anteckningar. Alla dessa funktioner är byggda tillsammans med lärare och noga testade för att ge användarna ett verktyg som inte finns idag inom skolan som vi sett. Under 2020 kommer det sedan fyllas på med fler funktioner som kommer som önskemål från våra användare.</p>",
-          "text2": "<p>Skolio bygger på ett säkert system där personalen får en QR kod av den som ansvarar för Skolio på skolan. Denna QR kod skannas av den personal som skall ansluta sig till skolans konto. Det finns inget annat sätt att ansluta sig till en skola och detta ger skolans ansvariga ett säkert system för vem som får access till Skolio. När sedan appen för elever och vårdnadshavare kommer lanseras är det med samma teknik som dessa ansluter sig. En lärare kan ansluta elever genom att de skannar lärarens QR kod och vårdnadshavare måste också skanna lärarens QR kod. Detta för att maximera säkerheten och valfriheten med vem eller vilka som är vårdnadshavare för en elev.</p>",
-          "text3": "<p>Skolio är än så länge gratis för alla skolor och personal att testa. Detta kan komma att ändras men det viktigaste för oss är att så många som möjligt får chansen att testa Skolio på sin skola. Skolio kommer alltid vara gratis för vårdnadshavare.</p>",
-          "text4": "<p>Det säger vi inte rent ut men klart att vi tycker det själva. Skolio har utvecklats i nära samarbete med personal inom skolan och varje funktion har testats och byggts om flera gånger för att fungera perfekt efter hur det ser ut i skolan. Vi har också sett och testat andra appar och system för skolan och inte varit så imponerade över de små funktionerna. Just en funktion som vi tycker är helt fantastisk är just meddelandefunktionerna i Skolio. Testa och se om du också tycker det.</p>",
-          "text5": "<p>Det är bara att fylla i formuläret på denna sida. Be en som kan stå som ansvarig för ert Skolio på din skola att fylla i sina uppgifter. Efter att vi verifierat uppgifterna kommer vi addera er skola i den stora testomgång som startar under mars och då kan er ansvarige ansluta er alla till apparna för iOS och Android.</p>",
-          "text6": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "toggle1",
-          "_anchor": "toggle1-d"
-        },
-        {
-          "_params": {
             "paddingTop": 1,
             "paddingBottom": 1,
             "bgColor": "#ffffff"
@@ -274,35 +334,6 @@
           ],
           "_name": "content4",
           "_anchor": "content4-6"
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "countdown": "2020/03/30",
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/header/05.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#ecf0f1",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#ecf0f1",
-            "overlayOpacity": 0.75
-          },
-          "title": "När kan jag testa Skolio?",
-          "text": "Du kan anmäla att du och din skola vill testa Skolio redan nu. Betaversionen som lanserar den 1 mars 2020 kommer skickas ut gratis till alla som vill testa Skolio. Var med och påverka framtidens verktyg för lärare du också.",
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "countdown1",
-          "_anchor": "countdown1-7"
         },
         {
           "_styles": {
