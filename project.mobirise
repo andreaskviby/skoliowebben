@@ -58,8 +58,8 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Skolio - App för lärare, elever och vårdnadshavare i skolan",
-        "meta_descr": "Skolio är appen som ger dig meddelanden, att-göra, anteckningar och automatisk tidsredovisning i din arbetsdag. Prova Skolio gratis på din skola idag.",
+        "title": "Skolio - Forum om distansundervisning i skolan",
+        "meta_descr": "Coronavirus eller Covid-19 drabbar den svenska skolan. Här kan du diskutera med personal i hela landet hur distansundervisning med mera hanteras på den svenska skolorna. Helt gratis dessutom!",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
