@@ -250,7 +250,7 @@
           "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
           "title": "Skolio lanserar ett öppet forum för personal i den svenska skolan, gratis!",
           "text": "ÖPPET FORUM FÖR DISTANSUNDERVISNING",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">GÅ TILL FORUMET</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://forum.skolio.se\" data-toolbar=\"-mbrBtnMove\">GÅ TILL FORUMET</a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
